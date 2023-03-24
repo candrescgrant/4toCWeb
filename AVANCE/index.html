@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi Web</title>
+        <link 
+        rel="stylesheet" 
+        type="text/css" 
+        href="style.css">
+    </head>
+    <body>
+        <h1 class="titulo">Titulo Principal</h1>
+        <h2 id="subtitulo">Subtitulo</h2>
+        <button onclick="cambiarSubTitulo()">Cambiar Subtitulo</button>
+
+        <script>
+            var a = "Estoy en la consola";
+            console.log(a);
+
+            function cambiarSubTitulo(){
+                var subTitulo = document.getElementById("subtitulo");
+                subTitulo.innerHTML = "Cambiado";
+            }
+        </script>
+    </body>
+</html>
